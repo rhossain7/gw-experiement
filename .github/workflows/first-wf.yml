@@ -4,6 +4,6 @@ jobs:
   first-job:
     runs-on: ubuntu-latest
     steps:
-      -name: First Step 
-      run: echo "Hello Github WF"
+      - name: First Step 
+        run: echo "Hello Github WF"
       
